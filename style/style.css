@@ -223,7 +223,7 @@ h1{
 }
 @media screen and (min-width: 768px){
     .container-section-wan{
-        min-height: 890px;
+        max-height: 890px;
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)), image-set(url(../images/tables/chocolate-covered.jpg) 1x, url(../images/tables/chocolate-covered@2.jpg) 2x);
     }
     .wan-ful-links{
@@ -470,6 +470,13 @@ h1{
         margin-bottom: 80px;
         margin-top: 80px;
     }
+    .section-tri-ul .section-tri-li:nth-child(3) {
+        order: 4;
+    }
+    
+    .section-tri-ul .section-tri-li:nth-child(4) {
+        order: 3;
+    }
 }
 @media screen and (min-width: 1200px){
     .section-tri-ul{
@@ -484,6 +491,13 @@ h1{
     .section-tri {
         margin-bottom: 100px;
         margin-top: 100px;
+    }
+    .section-tri-ul .section-tri-li:nth-child(3) {
+        order: 3;
+    }
+    
+    .section-tri-ul .section-tri-li:nth-child(4) {
+        order: 4;
     }
     
 }
@@ -569,8 +583,6 @@ h1{
     }
     .section-for-ul-text{
         padding-left: 32px;
-    }
-    .section-for-div-text{
     }
 }
 @media screen and (min-width: 1200px){
