@@ -5,88 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./style/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <div class="container header-container">
-        <div class="header-logo">
-          <p class="header-logo-text">
+    <footer>
+      <div class="container footer-container">
+        <div class="logo-footer">
+          <a href="" class="link-logo-footer">
             SIMPLY
-            <span class="header-span-logo">CHOCOLATE</span>
-          </p>
-          <svg width="21" height="21" class="header-logo-svg">
-            <use href="./images/symbol-defs.svg#icon-chocolate"></use>
-          </svg>
+            <span class="span-logo-footer">CHOCOLATE</span>
+            <svg width="21" height="21" class="icon-logo-footer">
+              <use href="./images/symbol-defs.svg#icon-chocolate"></use>
+            </svg>
+          </a>
         </div>
-        <button class="header-button" type="button">
-          <svg width="21" height="21" class="header-button-svg">
-            <use href="./images/symbol-defs.svg#icon-menu"></use>
-          </svg>
-        </button>
-        <nav class="header-nav">
-          <ul class="header-nav-ul">
-            <li><a href="" class="header-ul-a-nav">Home</a></li>
-            <li><a href="" class="header-ul-a-nav">How it’s made?</a></li>
-            <li><a href="" class="header-ul-a-nav">Chocolate is loved</a></li>
+        <div class="footer-nav">
+          <button type="button" class="button-footer-nav">
+            <svg width="28" height="28" class="icon-footer-nav">
+              <use href="./images/symbol-defs.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </div>
+        <nav class="nav-footer">
+          <ul class="list-footer-nav">
+            <li><a href="" class="nav-footer-li-a">Home</a></li>
+            <li><a href="" class="nav-footer-li-a">How it’s made?</a></li>
+            <li><a href="" class="nav-footer-li-a">Chocolate is loved</a></li>
           </ul>
-          <ul class="header-nav-ul-icons">
-            <li>
-              <a href="" class="header-nav-ul-icons-a">
-                <svg width="24" height="24" class="header-nav-ul-icons-svg">
-                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="" class="header-nav-ul-icons-a">
-                <svg width="24" height="24" class="header-nav-ul-icons-svg">
-                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <section class="section-van">
-        <div class="container">
-          <div class="container-section-van">
-            <h1 class="h1-section-van">
-              Treat yourself or a loved one to our finest ingredients for a
-              moment of pure delight!
-            </h1>
-            <div class="div-naigation-sec-van">
-              <div class="section-van-link">
-                <button class="button-buy-now">Buy now</button>
-                <a href="" class="how-made">How it’s made</a>
-              </div>
-              <div class="scroll-div">
-                <p class="scroll-down-tex">scroll down</p>
-                <a href="" class="a-svg-section-van">
-                  <svg width="16" height="16" class="svg-section-van">
-                    <use href="./images/symbol-defs.svg#icon-down"></use>
+          <div class="footer-social">
+            <ul class="list-footer-social">
+              <li>
+                <a href="" class="a-footer-iconss">
+                  <svg
+                    width="24"
+                    height="24"
+                    class="icon-footer-social-instagram"
+                  >
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
                   </svg>
                 </a>
-              </div>
+              </li>
+              <li>
+                <a href="" class="a-footer-iconss">
+                  <svg
+                    width="24"
+                    height="24"
+                    class="icon-footer-social-twitter"
+                  >
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </footer>
+    <main>
+      <!-- Section-wan -->
+      <section class="section-wan">
+        <div class="container container-section-wan">
+          <h1>
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </h1>
+          <div class="wan-ful-links">
+            <ul class="ul-section-wan">
+              <li>
+                <button type="button" class="button-section-wan">
+                  Buy now
+                </button>
+              </li>
+              <li><a href="" class="a-section-wan">How it’s made</a></li>
+            </ul>
+            <div class="div-scroll-section-wan">
+              <p class="p-section-wan">scroll down</p>
+              <a href="" class="scroll-section-wan">
+                <svg width="16" height="16" class="icon-scroll-section-wan">
+                  <use href="./images/symbol-defs.svg#icon-down"></use>
+                </svg>
+              </a>
             </div>
           </div>
         </div>
       </section>
+      <!-- Section-two -->
       <section class="section-two">
         <div class="container container-section-two">
-          <h2 class="visually-hidden">test</h2>
+          <h2 class="visually-hidden">Unsurpassed taste</h2>
           <ul class="ul-section-two">
-            <li>
-              <div class="div-svg-sec-two">
-                <svg width="32" height="32" class="svg-section-two">
+            <li class="li-section-two li-section-two-line">
+              <div class="section-two-icon">
+                <svg width="32" height="32" class="icon-section-two">
                   <use href="./images/symbol-defs.svg#icon-fluent"></use>
                 </svg>
               </div>
@@ -98,9 +120,9 @@
                 Unsurpassed Taste and discover a new level of chocolate bliss.
               </p>
             </li>
-            <li>
-              <div class="div-svg-sec-two">
-                <svg width="32" height="32" class="svg-section-two">
+            <li class="li-section-two li-section-two-line">
+              <div class="section-two-icon">
+                <svg width="32" height="32" class="icon-section-two">
                   <use href="./images/symbol-defs.svg#icon-Coin"></use>
                 </svg>
               </div>
@@ -113,9 +135,9 @@
                 in affordable luxury today.
               </p>
             </li>
-            <li>
-              <div class="div-svg-sec-two">
-                <svg width="32" height="32" class="svg-section-two">
+            <li class="li-section-two">
+              <div class="section-two-icon">
+                <svg width="32" height="32" class="icon-section-two">
                   <use href="./images/symbol-defs.svg#icon-spoon"></use>
                 </svg>
               </div>
@@ -130,14 +152,15 @@
           </ul>
         </div>
       </section>
+      <!-- Section-tri -->
       <section class="section-tri">
-        <div class="container">
-          <h2 class="h-two-sec-tri">
+        <div class="container container-section-tri">
+          <h2 class="section-tri-h-two">
             IT ALL ADDS UP TO ONE EXCEPTIONAL
-            <span class="span-section-tri">TASTE</span>
+            <span class="span-s-ti-h-two">TASTE</span>
             SENSATION
           </h2>
-          <p class="p-section-tri">
+          <p class="section-tri-p">
             At Simply Chocolate, we believe that the secret to exceptional
             chocolate is in the details. From the sourcing of the finest
             ingredients to the careful crafting of each individual piece, every
@@ -279,13 +302,14 @@
           </ul>
         </div>
       </section>
+      <!-- Section-for -->
       <section class="section-for">
         <div class="container">
-          <h2 class="h-two-sec-for">
+          <h2 class="section-for-h-two">
             hOW IT’S
-            <span class="span-section-for">made?</span>
+            <span class="section-for-span">made?</span>
           </h2>
-          <div class="text-and-img-div">
+          <div class="container-section-for">
             <picture>
               <source
                 srcset="
@@ -296,127 +320,90 @@
               />
               <source
                 srcset="
-                  ./images/tables/image.png   1x,
-                  ./images/tables/image@2.png 2x
+                  ./images/tables/image.png 1x,
+                  ./images/tables/image.png 2x
                 "
                 media="(max-width: 1199px)"
               />
               <source
                 srcset="
-                  ./images/decstop/image.png   1x,
-                  ./images/decstop/image@2.png 2x
+                  ./images/decstop/image.png 1x,
+                  ./images/decstop/image.png 2x
                 "
                 media="(min-width: 1200px)"
               />
               <img
                 src="./images/mobile/image.png"
-                alt="chocolate"
+                alt="Chocolate-making"
+                class="img-section-for"
                 width="335"
                 height="500"
-                class="img-section-for"
               />
             </picture>
-            <div class="div-text-sec-for">
-              <h3 class="h-tri-section-for">
+            <div class="text-section-for">
+              <h3 class="section-for-h-three">
                 Try our chocolates today and discover the perfect balance of
                 flavor
               </h3>
-              <ul class="ul-section-for">
+              <ul class="section-for-ul-text">
                 <li>
-                  <!-- <svg width="8" height="8" class="svg-sec-for">
-                    <use href="./images/symbol-defs.svg#icon-Ellipse"></use>
-                  </svg> -->
-                  <p>
-                    Heat the milk in a saucepan without bringing it to a boil.
-                    Add sugar and cocoa powder.
-                  </p>
+                  <div class="section-for-div-text">
+                    <svg width="8" height="8" class="icon-section-for">
+                      <use href="./images/symbol-defs.svg#icon-Ellipse"></use>
+                    </svg>
+                    <p class="section-for-text-p">
+                      Heat the milk in a saucepan without bringing it to a boil.
+                      Add sugar and cocoa powder.
+                    </p>
+                  </div>
                 </li>
                 <li>
-                  <p>
-                    At the same time, prepare a water bath. Melt the butter on
-                    it.
-                  </p>
+                  <div class="section-for-div-text">
+                    <svg width="8" height="8" class="icon-section-for">
+                      <use href="./images/symbol-defs.svg#icon-Ellipse"></use>
+                    </svg>
+                    <p class="section-for-text-p">
+                      At the same time, prepare a water bath. Melt the butter on
+                      it.
+                    </p>
+                  </div>
                 </li>
                 <li>
-                  <p>
-                    "Mix" the milk mixture and already liquid butter. Mix
-                    thoroughly with a silicone spatula so that the mass becomes
-                    uniform and silky.
-                  </p>
+                  <div class="section-for-div-text">
+                    <svg width="8" height="8" class="icon-section-for">
+                      <use href="./images/symbol-defs.svg#icon-Ellipse"></use>
+                    </svg>
+                    <p class="section-for-text-p">
+                      "Mix" the milk mixture and already liquid butter. Mix
+                      thoroughly with a silicone spatula so that the mass
+                      becomes uniform and silky.
+                    </p>
+                  </div>
                 </li>
                 <li>
-                  <p>Heat the mixture over low heat, letting it barely boil.</p>
+                  <div class="section-for-div-text">
+                    <svg width="8" height="8" class="icon-section-for">
+                      <use href="./images/symbol-defs.svg#icon-Ellipse"></use>
+                    </svg>
+                    <p class="section-for-text-p">
+                      Heat the mixture over low heat, letting it barely boil.
+                    </p>
+                  </div>
                 </li>
                 <li>
-                  <p>
-                    Pour the chocolate into special containers (can be replaced
-                    with ice molds). Allow to cool and harden.
-                  </p>
+                  <div class="section-for-div-text">
+                    <svg width="8" height="8" class="icon-section-for">
+                      <use href="./images/symbol-defs.svg#icon-Ellipse"></use>
+                    </svg>
+                    <p class="section-for-text-p">
+                      Pour the chocolate into special containers (can be
+                      replaced with ice molds). Allow to cool and harden.
+                    </p>
+                  </div>
                 </li>
               </ul>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="section-five">
-        <div class="container">
-          <h2 class="h-two-section-five">
-            chocolate
-            <span>is loved</span>
-          </h2>
-          <ul class="ul-section-five">
-            <li>
-              <div class="girl-sec-five">
-                <img
-                  src="./images/girl.png"
-                  alt="Victoria Dobrzhanska"
-                  width="80"
-                  height="80"
-                  class="img-sec-five"
-                />
-                <h3>Victoria Dobrzhanska</h3>
-                <p>
-                  I love this chocolate bar. Perfect combination of light crispy
-                  wafer, covered in a thin layer chocolate.
-                </p>
-              </div>
-            </li>
-            <li class="li-sec-five">
-              <div class="girl-sec-five">
-                <img
-                  src="./images/girl.png"
-                  alt="Nazar Babenko"
-                  width="80"
-                  height="80"
-                  class="img-sec-five"
-                />
-                <h3>Nazar Babenko</h3>
-                <p>
-                  This chocolate confection is a delight! A delight! The wafer
-                  is light and crisp, the hazelnut cream is smooth, and the
-                  chocolate is good.
-                </p>
-              </div>
-            </li>
-            <li class="li-sec-five-two">
-              <div class="girl-sec-five">
-                <img
-                  src="./images/girl.png"
-                  alt="Olena Kampusch"
-                  width="80"
-                  height="80"
-                  class="img-sec-five"
-                />
-                <h3>Olena Kampusch</h3>
-                <p>
-                  Chocolate is a family favourite treat. Love the delicious
-                  smooth chocolate and the creaminess inside. The wafer is soft
-                  but crunchy.
-                </p>
-              </div>
-            </li>
-          </ul>
-          <button type="button" class="button-sec-five">Leave a review</button>
         </div>
       </section>
     </main>
