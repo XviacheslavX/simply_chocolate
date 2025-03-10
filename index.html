@@ -367,13 +367,36 @@
           <ul class="ul-section-five">
             <li>
               <div class="girl-sec-five">
-                <img
-                  src="./images/girl.png"
-                  alt="Victoria Dobrzhanska"
-                  width="80"
-                  height="80"
-                  class="img-sec-five"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/mobile/victoria.png   1x,
+                      ./images/mobile/victoria@2.png 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/tables/victoria.png   1x,
+                      ./images/tables/victoria@2.png 2x
+                    "
+                    media="(max-width: 1199px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/decstop/victoria.png   1x,
+                      ./images/decstop/victoria@2.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/mobile/victoria.png"
+                    alt="Victoria Dobrzhanska"
+                    width="80"
+                    height="80"
+                    class="img-sec-five"
+                  />
+                </picture>
                 <h3>Victoria Dobrzhanska</h3>
                 <p>
                   I love this chocolate bar. Perfect combination of light crispy
@@ -383,13 +406,29 @@
             </li>
             <li class="li-sec-five">
               <div class="girl-sec-five">
-                <img
-                  src="./images/girl.png"
-                  alt="Nazar Babenko"
-                  width="80"
-                  height="80"
-                  class="img-sec-five"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/tables/nazar.png   1x,
+                      ./images/tables/nazar@2.png 2x
+                    "
+                    media="(max-width: 1199px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/decstop/nazar.png   1x,
+                      ./images/decstop/nazar@2.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/tables/nazar.png"
+                    alt="Nazar Babenko"
+                    width="80"
+                    height="80"
+                    class="img-sec-five"
+                  />
+                </picture>
                 <h3>Nazar Babenko</h3>
                 <p>
                   This chocolate confection is a delight! A delight! The wafer
@@ -400,13 +439,22 @@
             </li>
             <li class="li-sec-five-two">
               <div class="girl-sec-five">
-                <img
-                  src="./images/girl.png"
-                  alt="Olena Kampusch"
-                  width="80"
-                  height="80"
-                  class="img-sec-five"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/decstop/olena.png   1x,
+                      ./images/decstop/olena@2.png 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    src="./images/decstop/olena.png"
+                    alt="Olena Kampusch"
+                    width="80"
+                    height="80"
+                    class="img-sec-five"
+                  />
+                </picture>
                 <h3>Olena Kampusch</h3>
                 <p>
                   Chocolate is a family favourite treat. Love the delicious
@@ -420,5 +468,56 @@
         </div>
       </section>
     </main>
+    <footer>
+      <div class="container container-footer">
+        <div class="footer-address-div">
+          <div class="text-div-footer">
+            <p class="p-footer">
+              <span class="span-footer">Chocolate</span>
+              a delicious cure for a bad day
+            </p>
+          </div>
+          <address class="address-footer">
+            <p class="address-footer-p">Contact us</p>
+            <ul class="address-ul-footer">
+              <li>
+                <a href="tel:+380684439426" class="footer-address-a">
+                  +380 (68) 443-94-26
+                </a>
+              </li>
+              <li>
+                <a href="mailto:simplychoc@gmail.com" class="footer-address-a">
+                  simplychoc@gmail.com
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-navigation">
+          <nav class="nav-footer">
+            <ul class="nav-ul-footer">
+              <li><a href="" class="a-nav-footer">Home</a></li>
+              <li><a href="" class="a-nav-footer">How it’s made?</a></li>
+              <li class="not-display">
+                <a href="" class="a-nav-footer">Our products</a>
+              </li>
+              <li class="not-display">
+                <a href="" class="a-nav-footer">Top sellers</a>
+              </li>
+              <li><a href="" class="a-nav-footer">Chocolate is loved</a></li>
+            </ul>
+          </nav>
+          <form class="form-footer">
+            <input
+              type="email"
+              name="email"
+              class="input-email-footer"
+              placeholder="Enter your email"
+            />
+            <button class="button-form-footer">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
